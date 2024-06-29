@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar-brand img{
+  width: 100px;
+}
+
+main {
+    flex: 1;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/pexels-pixabay-159775.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.features-section {
+    padding: 50px 0;
+}
+.feature-card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.feature-card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
